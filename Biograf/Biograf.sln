@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biograf", "Biograf\Biograf.csproj", "{56864EE8-DE23-4E48-8246-87F530E64496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56864EE8-DE23-4E48-8246-87F530E64496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56864EE8-DE23-4E48-8246-87F530E64496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56864EE8-DE23-4E48-8246-87F530E64496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56864EE8-DE23-4E48-8246-87F530E64496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB06C4F0-2480-4F57-9895-167D25A7313C}
+	EndGlobalSection
+EndGlobal

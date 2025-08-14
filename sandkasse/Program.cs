@@ -84,6 +84,14 @@ namespace sandkasse
             }
         while (isRunning);
         }
+
+        //Metode til at vise verdens tid i forskellige tidszoner
+        //PRIVATE,PUBLI,PROTECTED,INTERNAL
+        //program.VerdensTid();
+        //program programInstans= new program();
+        //programInstans.VerdensTid();
+
+
         private static void VerdensTid()
         {
             Console.Clear();
@@ -125,9 +133,10 @@ namespace sandkasse
             {
                 try
                 {
-                    TimeZoneInfo selectedZone = TimeZoneInfo.FindSystemTimeZoneById("timeZoneId");
+                    TimeZoneInfo selectedZone = TimeZoneInfo.FindSystemTimeZoneById(timeZoneId);
                     DateTime localTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, selectedZone);
                     Console.WriteLine($"{selectedZone.DisplayName}: {localTime:yyyy-MM-dd HH:mm:ss}");                   
+                
                 }
                 catch (TimeZoneNotFoundException)
                 {
